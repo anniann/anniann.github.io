@@ -1,0 +1,25 @@
+html {
+  background-color: White;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    vertical-align:sub;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+h2 {
+  text-align: center;
+  vertical-align: middle;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+h3 {
+  font-weight: normal;
+}

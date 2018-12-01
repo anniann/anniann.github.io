@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Annie Wong | Home</title>
+    <title>Annie Wong | Index </title>
     <meta name="theme-color" content="#6e8a9f">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
@@ -14,24 +14,27 @@
     }
   </style>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
-    $('#wrapper').click(function() {
-      $('#move').animate({
-        'marginLeft' : "-=30px" //moves left
-      });
-    });
-    </script>
-
   <body>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#aboutme").click(function(){
+        $("#wrapper").toggleClass("left");
+        });
+        });
+      </script>
     <div id="wrapper">
       <div id="move">
-        <img src="assets/headshot1.png" class="rounded-circle" style="width:150px;height:150px;" />
+        <img src="assets/smallheadshot.png" class="rounded-circle" style="width:150px;height:150px;" />
 
         <h1> Annie Wong </h1>
         <h2> Computer Science Student <br/>  at UC Berkeley </h2>
-        <p> <a href="aboutme.html"> About Me </a></p>
-        <p> <a href="projects.html"> Projects </a></p>
+        <div id = "aboutme">
+          <p> <a href="aboutme.html"> About Me </a></p>
+          </div>
+        <div id = "projects">
+          <p> <a href="projects.html"> Projects </a></p>
+          </div>
         <p> <a href="assets/resume.pdf"> Resumé </a></p>
 
 

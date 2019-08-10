@@ -85,3 +85,25 @@ a:hover {
   color: white;
   text-align: center;
 }
+
+#left{
+    background-color: red;
+    width:50%;
+    height:150px;
+    float: left;
+}
+#right{
+    background-color: green;
+    width: 50%;
+    height:150px;
+    float: left;
+}
+
+#moving.left{
+    transform: translateX(-100%);
+}
+
+.button:hover {
+    background: #000;
+    color:#fff;
+}
